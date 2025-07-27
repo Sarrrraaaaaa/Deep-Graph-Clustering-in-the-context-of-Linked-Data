@@ -7,22 +7,21 @@ This repository contains the code and resources for my Master's thesis project, 
 
 - **Global fin/**: Scripts and notebooks for global clustering (all node types together).
 - **par type/**: Scripts and notebooks for clustering by node type (author, publication, venue, etc.).
-- **Model and Embedding Files**: `.pt` (PyTorch models), `.pkl` (embeddings, labels, results), `.rdf` (DBLP RDF data).
 
 ## Main Features
 
 - **Extraction and processing of heterogeneous graphs** from DBLP.
 - **Learning embeddings** with VGAE (Variational Graph AutoEncoder) and HGT (Heterogeneous Graph Transformer).
 - **Advanced clustering**: K-Means, Agglomerative (hierarchical), Spectral Clustering, DEC (Deep Embedded Clustering), GMM, semi-supervised methods.
-- **Automatic evaluation**: NMI, ARI, F1-score, Accuracy, Purity.
+- **Evaluation**: NMI, ARI, F1-score, Accuracy, Purity.
 - **Visualization**: t-SNE, confusion matrices, cluster visualization by type and globally.
-- **Automatic reports**: Generation of summary files (`clustering_results_summary.txt`, `clustering_comparison_table.csv`).
+
 
 ## Requirements
 
 - Python 3.8+
 - PyTorch, DGL, scikit-learn, matplotlib, pandas, rdflib, sentence-transformers, umap-learn, etc.
-- See `requirements.txt` for the full list.
+
 
 ## Usage
 
@@ -43,14 +42,6 @@ This repository contains the code and resources for my Master's thesis project, 
    - For clustering by type:  
      Open and run [`par type/vgae.py`](par%20type/vgae.py) or [`par type/kmean.ipynb`](par%20type/kmean.ipynb)
 
-4. **Results**  
-   - Results, visualizations, and reports are generated automatically in the corresponding folders.
-
-## Author
-
-Sarad Diallo  
-Master's Thesis Project  
-[Your University]
 
 ## License
 
