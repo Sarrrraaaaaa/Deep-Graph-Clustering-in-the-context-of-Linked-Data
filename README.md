@@ -28,15 +28,10 @@ This repository contains the code and resources for my Master's thesis project, 
 1. **Clone the repository**  
    ```sh
    git clone <repository_url>
-   cd "les codes clustering"
+   cd "Deep-Graph-Clustering-in-the-context-of-Linked-Data"
    ```
 
-2. **Install dependencies**  
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-3. **Run the notebooks**  
+2. **Run the notebooks**  
    - For global clustering:  
      Open and run [`Global fin/vgae-globale.py`](Global%20fin/vgae-globale.py) or [`Global fin/hgt_dec.ipynb`](Global%20fin/hgt_dec.ipynb)
    - For clustering by type:  
